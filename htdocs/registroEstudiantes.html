@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<title>formulario estudiante</title>
+	<link rel="stylesheet" type="text/css" href="hojastyle/Styleform.css">
+</head>
+<body>
+	<section id="formulario">
+		<p id="titulo"> Ingrese datos</p>
+
+
+		<form action="php/registroEstudiantes.php" method="post">
+			<input type="text" id="nombre" name="nombre" placeholder="Nombre" required="required">
+
+    		<input type="text" id="codigo" name="codigo" placeholder="Codigo" required pattern="[0-9]{11}"  title="Debe tener 11 digitos">
+			
+			<input type="password" id="pass" name="pass" placeholder="Contraseña" required="required" pattern=".{6,}" title="Seis o mas Caracteres">
+			<input type="email" id="mail" name="mail" placeholder="Correo" required="required">
+			
+			<select  name="Materia1">
+  <option id="escoger"value="" default selected>Selecciona una materia</option>
+    <option value="Fisica">Fisica</option>
+    <option value="Quimica">Quimica</option>
+    <option value="Matematicas">Matematicas</option>
+    <option value="Programacion">Programacion</option>
+    <option value="Calculo">Calculo </option>
+    <option value="Catedra">Catedra</option>
+    <option value="Dibujo">Dibujo</option>
+    <option value="Campos">Campos Electromagneticos</option>
+    <option value="Electronica">Electronica</option>
+  </select>
+  <select  name="Materia2">
+  <option id="escoger"value="" default selected>Selecciona una materia</option>
+    <option value="Fisica">Fisica</option>
+    <option value="Quimica">Quimica</option>
+    <option value="Matematicas">Matematicas</option>
+    <option value="Programacion">Programacion</option>
+    <option value="Calculo">Calculo Multivariado</option>
+    <option value="Catedra">Catedra</option>
+    <option value="Dibujo">Dibujo</option>
+    <option value="Campos">Campos Electromagneticos</option>
+    <option value="Electronica">Electronica</option>
+  </select>
+  <select  name="Materia3">
+  <option id="escoger"value="" default selected>Selecciona una materia</option>
+    <option value="Fisica">Fisica</option>
+    <option value="Quimica">Quimica</option>
+    <option value="Matematicas">Matematicas</option>
+    <option value="Programacion">Programacion</option>
+    <option value="Calculo">Calculo Multivariado</option>
+    <option value="Catedra">Catedra</option>
+    <option value="Dibujo">Dibujo</option>
+    <option value="Campos">Campos Electromagneticos</option>
+    <option value="Electronica">Electronica</option>
+  </select>
+  <select  name="Materia4">
+  <option id="escoger"value="" default selected>Selecciona una materia</option>
+    <option value="Fisica">Fisica</option>
+    <option value="Quimica">Quimica</option>
+    <option value="Matematicas">Matematicas</option>
+    <option value="Programacion">Programacion</option>
+    <option value="Calculo">Calculo Multivariado</option>
+    <option value="Catedra">Catedra</option>
+    <option value="Dibujo">Dibujo</option>
+    <option value="Campos">Campos Electromagneticos</option>
+    <option value="Electronica">Electronica</option>
+  </select>
+
+			<input type="submit" value="Enviar">
+
+
+		</form>
+	</section>
+	<p ><a href="panelAdmin.html"> Volver a menu</a></p>
+</body>
+</html>

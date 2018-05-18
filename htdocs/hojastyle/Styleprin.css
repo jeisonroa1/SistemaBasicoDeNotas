@@ -1,0 +1,91 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+div#general{
+	margin: auto;
+	margin-top: 50px;
+	width: 1270px;
+	height: 580px;
+	background-color: red;
+}
+div#profesores{
+	float: right;
+	width: 635px;
+	height: 290px;
+	background-color: rgb(78,127,255);
+
+}
+div#administrador{
+	
+	width: 635px;
+	height: 290px;
+	background-color: rgb(243,182,14);
+	
+}
+div#invitados{
+	width: 635px;
+	height: 290px;
+	background-color: rgb(224,47,89);
+
+}
+div#estudiantes{
+	float: right;
+	width: 635px;
+	height: 290px;
+	background-color: rgb(245,197,69);
+}
+img.icon{
+	display: block;
+	margin:  auto;
+	background-color:rgba(255,255,255,.01); 
+	width: 90px;
+
+	padding: 40px;
+	-webkit-border-radius:50%;
+	-moz-border-radius:50%;
+	-webkit-box-shadow:0px 0px 0px 30px rgba(255,255,255,0);
+	-webkit-transition:box-shadow .4s;
+}
+img.icone{
+	display: block;
+	margin:  auto;
+	background-color:rgba(255,255,255,.01); 
+	width: 280px;
+
+	padding: 40px;
+	-webkit-border-radius:30%;
+	-moz-border-radius:50%;
+	-webkit-box-shadow:0px 0px 0px 30px rgba(255,255,255,0);
+	-webkit-transition:box-shadow .4s;
+}
+p.titulo{
+	
+	font-size: 2em;
+	opacity: .9;
+	text-align: center;
+	
+	
+	
+}
+a:link
+{
+color: white;
+text-decoration: none;
+}
+a:active
+{
+color: white;
+text-decoration: none;
+}
+
+a:visited
+{
+color: white;
+text-decoration: none;}
+div.contenedor:hover img.icon{
+	-webkit-box-shadow: 0px 0px 0px rgba(255,255,255,.6);
+}
+div.contenedor:hover img.icone{
+	-webkit-box-shadow: 0px 0px 0px rgba(255,255,255,.6);
+}

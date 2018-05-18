@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Login Error!!!</title>
+	<link rel="stylesheet" type="text/css" href="hojastyle/Stylelogin.css">
+</head>
+<body>
+	<div id="administrador">
+	<section id="formulario">
+		<p id="titulo"> Bienvenido </p>
+
+
+		<form action="php/loginAdmin.php" method="post">
+			
+
+			<input type="text" id="codigoadministrador" name="codigo" placeholder="Codigo" required="required" required pattern="[0-9]{11}"  title="Debe tener 11 digitos">
+			
+			<input type="password" id="passadministrador" name="pass" placeholder="Contraseña" required="required" pattern=".{6,}" title="contraseña invalida"><br><br>
+			<div id="error">
+			<b>Codigo o contraseña incorrectos</b>
+			</div>
+			
+
+			<input type="submit" id="submitadministrador" value="Confirmar">
+
+
+		</form>
+		
+	</section>
+	<p ><a href="index.html"> Volver a Portada</a></p>
+
+	</div>
+</body>
+</html>

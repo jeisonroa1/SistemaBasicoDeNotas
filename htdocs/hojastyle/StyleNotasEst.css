@@ -1,0 +1,33 @@
+body{
+    
+    background-image:url("fondos/FormnotasEst.jpg");
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    margin: 0;
+
+}
+.tabla{
+    border: 1px solid;
+    width: 90%;
+    border-collapse: collapse;
+}
+
+.tabla td{
+    padding: 16px;
+    text-align: center;
+    border: 1px solid;
+}
+.tabla th{
+    background-color: dimgray;
+}
+.tabla tr:hover{background-color: coral}
+h3{
+    text-align: center;
+}
+.tablacentro {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #fff;
+}

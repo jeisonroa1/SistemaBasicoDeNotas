@@ -1,0 +1,240 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+div#general{
+	margin: auto;
+	
+	width: 1350px;
+	height: 660px;
+	background-color: 
+
+background: rgb(135,224,253);
+background: -moz-linear-gradient(-45deg, rgb(135,224,253) 0%, rgb(80,181,163) 46%, rgb(82,209,164) 100%, rgb(5,171,224) 100%);
+background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgb(135,224,253)), color-stop(46%,rgb(80,181,163)), color-stop(100%,rgb(82,209,164)), color-stop(100%,rgb(5,171,224)));
+background: -webkit-linear-gradient(-45deg, rgb(135,224,253) 0%,rgb(80,181,163) 46%,rgb(82,209,164) 100%,rgb(5,171,224) 100%);
+background: -o-linear-gradient(-45deg, rgb(135,224,253) 0%,rgb(80,181,163) 46%,rgb(82,209,164) 100%,rgb(5,171,224) 100%);
+background: -ms-linear-gradient(-45deg, rgb(135,224,253) 0%,rgb(80,181,163) 46%,rgb(82,209,164) 100%,rgb(5,171,224) 100%);
+background: linear-gradient(135deg, rgb(135,224,253) 0%,rgb(80,181,163) 46%,rgb(82,209,164) 100%,rgb(5,171,224) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87e0fd', endColorstr='#05abe0',GradientType=1 );
+}
+section#formulario{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -200px;
+	margin-top: -300px;
+	width: 400px;
+	min-height: 100px;
+	
+	overflow: hidden;
+	border-radius: 5px;}
+	input[type="text"],input[type="password"],input[type="email"]{
+	width: 350px;
+	height: 35px;
+	margin-left: 20px;
+	margin-top: 10px;
+	padding-left: 10px;
+	font-size: 1.1em;
+	outline: none;
+	border: 0px;
+	background-color: rgb(122,207,184);
+	border-radius: 5px;
+
+}
+
+
+	p#titulo{
+	font-size: 1.6em;
+	text-align: center;
+	margin-top: 20px;
+	color: white;
+}
+a:link, a:visited {
+    display: block;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #98bf21;
+    width: 120px;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    background-color: #7A991A;
+}
+::-webkit-input-placeholder {
+   color: white;
+   text-align: center;
+}
+
+
+:-moz-placeholder { /* Firefox 18- */
+   color: white; 
+   text-align: center; 
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: white;  
+   text-align: center;
+}
+
+:-ms-input-placeholder {  
+   color: white; 
+   text-align: center; 
+}
+div#error{
+	width: 300px;
+	height: 18px;
+	background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: white;
+	text-align: center;
+	margin: auto;
+	border-radius: 5px;
+    -o-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+   	color: #8d1a0d;
+    font-size: 100%;
+    font-family: Helvetica;
+    
+}
+div#profesores{
+	margin: auto;
+	
+	width: 1350px;
+	height: 660px;
+	background-color: rgb(78,127,255);
+
+
+}
+	input[type="password"]{
+	width: 350px;
+	height: 35px;
+	margin-left: 20px;
+	margin-top: 10px;
+	padding-left: 10px;
+	font-size: 1.1em;
+	outline: none;
+	border: 0px;
+	background-color: rgb(122,207,184);
+	border-radius: 5px;
+
+}
+	input#codigoprofesores,input#passprofesores{
+	width: 350px;
+	height: 35px;
+	margin-left: 20px;
+	margin-top: 10px;
+	padding-left: 10px;
+	font-size: 1.1em;
+	outline: none;
+	border: 0px;
+	background-color: rgb(131,165,255);
+	border-radius: 5px;
+   
+
+
+}
+input#submitprofesores{
+
+	margin: 20px;
+	margin-bottom: 20px; 
+	width: 360px;
+	height: 40px;
+	outline: none;
+	border: 0px;
+	background-color: white;
+	color: rgb(78,127,255);
+	font-size: 1.2em;
+	border-radius: 5px;
+	-webkit-box-shadow:0px 5px 0px #659dbf;
+	-moz-box-shadow:0px 5px 0px #659dbf;
+	cursor: pointer;
+}
+div#estudiantes{
+	margin: auto;
+	
+	width: 1350px;
+	height: 660px;
+	background-color: rgb(245,197,69);
+
+
+}
+	input#codigoestudiantes,input#passestudiantes{
+	width: 350px;
+	height: 35px;
+	margin-left: 20px;
+	margin-top: 10px;
+	padding-left: 10px;
+	font-size: 1.1em;
+	outline: none;
+	border: 0px;
+	background-color: rgb(248,215,125);
+	border-radius: 5px;
+
+}
+input#submitestudiantes{
+
+	margin: 20px;
+	margin-bottom: 20px; 
+	width: 360px;
+	height: 40px;
+	outline: none;
+	border: 0px;
+	background-color: white;
+	color: rgb(245,197,69);
+	font-size: 1.2em;
+	border-radius: 5px;
+	-webkit-box-shadow:0px 5px 0px rgb(248,215,125);
+	-moz-box-shadow:0px 5px 0px #659dbf;
+	cursor: pointer;
+}
+div#administrador{
+	margin: auto;
+	
+	width: 1350px;
+	height: 660px;
+	background-color: rgb(243,182,14);
+
+
+}
+	input#codigoadministrador,input#passadministrador{
+	width: 350px;
+	height: 35px;
+	margin-left: 20px;
+	margin-top: 10px;
+	padding-left: 10px;
+	font-size: 1.1em;
+	outline: none;
+	border: 0px;
+	background-color: rgb(245,196,60);
+	border-radius: 5px;
+
+}
+input#submitadministrador{
+
+	margin: 20px;
+	margin-bottom: 20px; 
+	width: 360px;
+	height: 40px;
+	outline: none;
+	border: 0px;
+	background-color: white;
+	color: rgb(243,182,14);
+	font-size: 1.2em;
+	border-radius: 5px;
+	-webkit-box-shadow:0px 5px 0px rgb(245,196,60);
+	-moz-box-shadow:0px 5px 0px #659dbf;
+	cursor: pointer;
+}

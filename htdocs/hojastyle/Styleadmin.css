@@ -1,0 +1,150 @@
+*{
+	margin:0px;
+	padding:0px;
+	font-family: verdana;
+
+}
+/*titulo*/
+
+div#titulo{
+	width:100%;
+	margin-top:100px;
+}
+p#Encabezado{
+	text-align: center;
+	font-size: 2.5em;
+	color:#9a9a9a;
+}
+
+p#Presentacion{
+	text-align: center;
+	color:#cecece;
+	margin-top:20px;
+	font-size: 1.3em;
+}
+
+header{
+	margin:100px auto;
+	width: 600px;
+	height: 230px;
+	background-color: red;
+}
+div.contenedor{
+	width: 200px;
+	height: 240px;
+	float: left;
+	-webkit-transition:height .4s;
+	-moz-transition:height .4s;
+}
+div#informacionp{
+	background-color: rgb(208,101,3);
+	cursor: pointer;
+	
+}
+div#perfilp{
+	background-color: rgb(233,147,26);
+
+}
+div#profesor{
+	background-color: rgb(22,145,190);
+	cursor: pointer;
+}
+div#estudiante{
+	background-color: rgb(22,187,162);
+	cursor: pointer;
+}
+div#comprobar{
+	background-color: rgb(27,54,71);
+	cursor: pointer;
+}
+div#referencias{
+	background-color: rgb(21,48,54);
+	cursor: pointer;
+}
+img.icon{
+	display: block;
+	margin: 50px auto;
+	background-color:rgba(255,255,255,.15); 
+	width: 40px;
+	padding: 20px;
+	-webkit-border-radius:30%;
+	-moz-border-radius:50%;
+	-webkit-box-shadow:0px 0px 0px 30px rgba(255,255,255,0);
+	-webkit-transition:box-shadow .4s;
+}
+p.titulo{
+	
+	font-size: 1.2em;
+	color: white;
+	text-align: center;
+	padding-top: 10px;
+	opacity: .6;
+	-webkit-transition:padding-top .4s;
+}
+div.contenedor:hover{
+	height: 280px;
+	opacity: 1;
+
+}
+div.contenedor:hover p.titulo{
+	padding-top: 30px;
+}
+div.contenedor:hover img.icon{
+	-webkit-box-shadow: 0px 0px 0px rgba(255,255,255,.6);
+
+}
+
+a:link
+{
+color: white;
+text-decoration: none;
+}
+
+a:active
+{
+color: white;
+text-decoration: none;
+}
+
+a:visited
+{
+color: white;
+text-decoration: none;
+}
+div#informacion{
+	background-color: #d06503;
+	width: 400px;
+	margin: 0px auto;
+}
+img#FHV{
+	width: 200px;
+	-webkit-border-radius:30%
+}
+div#perfilpro{
+	background-color: #E9931A;
+	width: 900px;
+	margin: 0px auto;
+
+	
+}
+div#obj{
+	background-color: #1691BE;
+	width: 900px;
+	margin: 0px auto;
+
+}
+div#edu{
+	background-color: #16bba2;
+	width: 900px;
+	margin: 0px auto;
+}
+div#cauli{
+	background-color: #1b3647;
+	width: 900px;
+	margin: 0px auto;
+}
+div#refe{
+	background-color: #153036;
+	width: 900px;
+	margin: 0px auto;
+}
